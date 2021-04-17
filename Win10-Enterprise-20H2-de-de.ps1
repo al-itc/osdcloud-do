@@ -1,4 +1,4 @@
-﻿Write-Host  -ForegroundColor Cyan "Starting OSDCloud ..."
+Write-Host  -ForegroundColor Cyan "Starting OSDCloud ..."
 Start-Sleep -Seconds 5
 
 #Change Display Resolution for Virtual Machine
