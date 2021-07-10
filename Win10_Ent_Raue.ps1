@@ -24,7 +24,7 @@ Import-Module OSD -Force
 
 #Start OSDCloud
 
-Write-Host -ForegroundColor Green "Start OSDCloud"
+Write-Host -ForegroundColor Green "Start OSDCloud ZTI"
 
 Start-OSDCloud -OSLanguage de-de -OSBuild 21H1 -OSEdition Pro -ZTI
 
