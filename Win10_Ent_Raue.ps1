@@ -26,4 +26,4 @@ Import-Module OSD -Force
 
 Write-Host -ForegroundColor Green "Start OSDCloud"
 
-Start-OSDCloudGUI
+Start-OSDCloudwim -ZTI
