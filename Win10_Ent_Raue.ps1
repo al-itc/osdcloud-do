@@ -26,4 +26,11 @@ Import-Module OSD -Force
 
 Write-Host -ForegroundColor Green "Start OSDCloud"
 
-Start-OSDCloudwim -ZTI
+Start-OSDCloud -OSLanguage de-de -OSBuild 21H1 -OSEdition Pro -ZTI
+
+copy d:\*.msi c:\drivers
+
+#Restart from WinPE
+Write-Host  -ForegroundColor Cyan "Restarting in 10 seconds!"
+Start-Sleep -Seconds 10
+wpeutil reboot
