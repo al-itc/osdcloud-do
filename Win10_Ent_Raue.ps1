@@ -22,16 +22,8 @@ Write-Host -ForegroundColor Green "Importing OSD PowerShell Module"
 
 Import-Module OSD -Force
 
-#Start OSDCloud ZTI the RIGHT way
+#Start OSDCloud
 
 Write-Host -ForegroundColor Green "Start OSDCloud"
 
-Start-OSDCloud -OSLanguage de-de -OSBuild 21H1 -OSEdition Pro -ZTI
-
-#Restart from WinPE
-
-Write-Host -ForegroundColor Green "Restarting in 20 seconds!"
-
-Start-Sleep -Seconds 20
-
-wpeutil reboot
+Start-OSDCloudGUI
