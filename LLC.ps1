@@ -9,7 +9,7 @@ Import-Module OSD -Force
 $Params = @{
     OSBuild = "21H1"
     OSEdition = "Enterprise"
-    OSLanguage = "de-de"
+    OSLanguage = "en-us"
     OSLicense = "Retail"
     SkipAutopilot = $true
     SkipODT = $true
