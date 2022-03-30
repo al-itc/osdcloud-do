@@ -29,6 +29,7 @@ Write-Host -ForegroundColor Green "Start OSDCloud ZTI (Win10 Professional, Versi
 Start-OSDCloud -OSLanguage de-de -OSBuild 21H2 -OSEdition Pro -OSLicense Retail -SkipODT -OSVersion 'Windows 10' -ZTI -Screenshot
 
 copy d:\*.msi c:\drivers
+del C:\Drivers\SurfacePro8_Win11_22000_22.011.9739.0.msi -Force -ErrorAction SilentlyContinue
 
 #Restart from WinPE
 Write-Host  -ForegroundColor Cyan "Restarting in 10 seconds!"
