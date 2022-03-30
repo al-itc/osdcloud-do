@@ -34,4 +34,4 @@ del C:\Drivers\SurfacePro8_Win11_22000_22.011.9739.0.msi -Force -ErrorAction Sil
 #Restart from WinPE
 Write-Host  -ForegroundColor Cyan "Restarting in 10 seconds!"
 Start-Sleep -Seconds 10
-# wpeutil reboot
+wpeutil reboot
