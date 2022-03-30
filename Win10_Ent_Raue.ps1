@@ -24,11 +24,11 @@ Import-Module OSD -Force
 
 #Start OSDCloud
 
-Write-Host -ForegroundColor Green "Start OSDCloud ZTI (Win10 Professional, Version 21H1, German)"
+Write-Host -ForegroundColor Green "Start OSDCloud ZTI (Win10 Professional, Version 21H2, German)"
 
-Start-OSDCloud -OSLanguage de-de -OSBuild 21H1 -OSEdition Pro -ZTI
+Start-OSDCloud -OSLanguage de-de -OSBuild 21H2 -OSEdition Pro -OSLicense Retail -SkipODT -OSVersion 'Windows 10' -ZTI -Screenshot
 
-copy d:\*.msi c:\drivers
+#copy d:\*.msi c:\drivers
 
 #Restart from WinPE
 Write-Host  -ForegroundColor Cyan "Restarting in 10 seconds!"
