@@ -33,4 +33,4 @@ copy d:\*.msi c:\drivers
 #Restart from WinPE
 Write-Host  -ForegroundColor Cyan "Restarting in 10 seconds!"
 Start-Sleep -Seconds 10
-wpeutil reboot
+# wpeutil reboot
