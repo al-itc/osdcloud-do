@@ -24,9 +24,9 @@ Import-Module OSD -Force
 
 #Start OSDCloud
 
-Write-Host -ForegroundColor Green "Start OSDCloud ZTI (Win10 Professional, Version 21H2, German)"
+Write-Host -ForegroundColor Green "Start OSDCloud ZTI (Win10 Professional, Version 22H2, German)"
 
-Start-OSDCloud -OSLanguage de-de -OSBuild 21H2 -OSEdition Pro -OSLicense Retail -SkipODT -OSVersion 'Windows 10' -ZTI
+Start-OSDCloud -OSLanguage de-de -OSBuild 22H2 -OSEdition Pro -OSLicense Retail -SkipODT -OSVersion 'Windows 10' -ZTI
 
 $session = New-CimSession
 $Model = (Get-CimInstance -CimSession $session -Class CIM_Computersystem).Model
